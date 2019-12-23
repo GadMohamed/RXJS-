@@ -1,0 +1,28 @@
+p:first-of-type {
+  font-family: Lato;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 20px
+}
+
+.contrllers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contrllers button:first-of-type{
+  background: #60a3bc;
+}
+
+.contrllers button{
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 10px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+cursor: pointer;
+}
